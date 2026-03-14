@@ -569,6 +569,27 @@ a {
   gap: 18px;
 }
 
+.index-section .content-block {
+  margin-top: 0;
+}
+
+.index-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.index-item {
+  min-height: 136px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.index-item h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
 .ai-work-item {
   min-height: 100%;
 }
@@ -755,7 +776,8 @@ a {
   .link-grid,
   .qr-grid,
   .hero-quick-grid,
-  .ai-works-grid {
+  .ai-works-grid,
+  .index-list {
     grid-template-columns: 1fr;
   }
 
