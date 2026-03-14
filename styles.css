@@ -398,6 +398,25 @@ a {
   font-size: 1.45rem;
 }
 
+.index-card-head {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.index-card-head h3 {
+  margin: 0;
+}
+
+.index-card-head span {
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.6;
+  text-align: right;
+}
+
 .story-card p,
 .story-list li {
   color: var(--muted);
