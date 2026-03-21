@@ -594,6 +594,23 @@ a {
   min-height: 100%;
 }
 
+.ai-work-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.ai-work-links a {
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+.ai-work-links a:hover {
+  color: var(--accent-strong);
+}
+
 .ai-work-qr {
   background: var(--surface-strong);
 }
